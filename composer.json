@@ -1,0 +1,20 @@
+{
+    "require": {
+        "cocur/slugify": "^2.3"
+
+    },
+    "autoload": {
+        "psr-4": { 	"App\\Config\\": "app/config",
+					"App\\BaseController\\": "app/controllers",
+					"App\\BaseModel\\": "app/models",
+					"App\\BaseView\\": "app/views",
+					"App\\BaseLib\\": "app/libs",
+					"App\\BaseTest\\": "app/tests",
+					"App\\Config\\Query\\": "app/config/query",
+					"App\\Inteface\\": "app/interfaces",
+					"App\\Action\\": "app/actions",
+					"App\\PHPMailer\\": "app/PHPMailer"
+
+        }
+    }
+}
